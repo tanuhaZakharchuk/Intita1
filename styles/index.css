@@ -1,0 +1,128 @@
+.main {
+    margin: 0 auto;
+    max-width: 360px;
+    position: relative;
+    box-sizing: content-box;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .links li {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 7px;
+    line-height: 8px;
+    color: white;
+    text-transform: uppercase;
+}
+
+header .socials li {
+    padding-left: 5px;
+}
+
+.first {
+    height: 640px;
+    background-image: url("../images/IMG_3501 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.first .text {
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    z-index: 1;
+}
+
+.first .text .photo-with {
+    font-size: 20px;
+    margin: 0;
+}
+
+.first .text .olia {
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+}
+
+.first button {
+    border: 1px white solid;
+    background-color: unset;
+    color: white;
+    border-radius: 13px;
+    font-size: 7px;
+    padding: 10px;
+    position: absolute;
+    top: 280px;
+    right: 10px;
+    z-index: 1;
+}
+
+.second {
+    padding: 20px 20px 0;
+}
+
+.second .info {
+    display: flex;
+    align-items: center;
+}
+
+.second .info .left {
+    width: 50px;
+    height: 2px;
+    background-color: black;
+}
+
+.second .info span {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 7px;
+    line-height: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.second .info .right {
+    width: 50px;
+    height: 2px;
+    background-color: black;
+}
+
+.second h1 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.second .block-with-photo {
+    display: flex;
+    align-items: center;
+}
+
+.second .block-with-photo h6 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+}
